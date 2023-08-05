@@ -29,3 +29,5 @@ Gönderme istekleri açıktır. Büyük (Major) değişikler için, lütfen önc
 
 ## Lisans.
 [GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+
+

@@ -1,0 +1,15 @@
+# Perl Communication Protocol SystemD Service
+[Unit]
+Description=Perl Communication Protocol TCP Server
+
+[Service]
+Type=simple
+TimeoutSec=infinity
+ExecStart=/usr/bin/perl /usr/share/plcomp/plcomp.pl
+PIDFile=/run/plcomp.pid
+Restart=on-failure
+DynamicUser=1
+WatchdogSec=90
+
+[Install]
+WantedBy=multi-user.target

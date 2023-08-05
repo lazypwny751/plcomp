@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Direct Method
+
+if [[ -f "/etc/os-release" ]] ; then
+	source "/etc/os-release"
+	echo -e "${NAME}\n${VERSION}"
+else
+	echo "${0##*/}: os-release not found!"
+	exit 1
+fi

@@ -1,8 +1,6 @@
 # plcomp (Perl Communication Protocol)
 The modular communication protocol is a transparent protocol using the text-level TCP protocol, prepared with Perl and shell scripts.
 
-![](https://cdn.dribbble.com/users/411340/screenshots/4421762/camel_dribbble.gif)
-
 ## Description.
 The modular TCP layer communication protocol is written in perl language and developed for unix*/linux systems that make up the majority of the internet network, systemd service support is available, methodologically parsing the incoming request, processing it on the server side, and distributing the result with base64 codec, then TCP as plain text. layer to the relevant client, the client receives the incoming base64 plain text data and parses it, parses the incoming base64 data to the corresponding counter-processor and presents it as a parameter.
 
@@ -30,4 +28,4 @@ plcompc --data "test/print:test one two three." # That's Just test command.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[GPL3](https://choosealicense.com/licenses/gpl-3.0)
+[GPLv3](https://choosealicense.com/licenses/gpl-3.0)
